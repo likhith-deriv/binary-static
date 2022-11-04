@@ -11,7 +11,7 @@ const WelcomePageOnboarding = () => {
             desc       : it.L('[_1]Maximise returns[_2] by [_3]risking more[_4] than you put in.', '<strong>', '</strong>','<strong>', '</strong>'),
             url        : it.url_for('user/metatrader'),
             action_id  : 'cfd',
-            sub_options: ['Forex', 'Synthetics', 'Stocks and indices', 'Cryptocurrencies', 'Commodities'],
+            sub_options: ['Forex', 'Derived', 'Stocks and indices', 'Cryptocurrencies', 'Commodities'],
         },
         {
             icon       : 'images/pages/welcome/doptions.svg',
